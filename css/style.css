@@ -483,7 +483,7 @@ body{
 }
 
 .list-all{
-    margin-right: 30px; */
+    margin-right: 30px; 
      margin-bottom: 30px;
     width: calc((100% / 3) - (60px / 3));
     /* width: 370px; */
@@ -492,6 +492,14 @@ body{
     border: 1px solid #EEEEEE;
     
 }
+
+.list-all:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+                0px 4px 4px rgba(0, 0, 0, 0.06), 
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
 
 .list-all:nth-child(3n){
     margin-right: 0px;
