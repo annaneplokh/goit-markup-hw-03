@@ -479,12 +479,13 @@ body{
 .list-projects{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .list-all{
-    margin-right: 30px;
-    margin-bottom: 30px;
-    flex-basis: calc((100%-60px) / 3);
+    /* margin-right: 30px; */
+    /* margin-bottom: 30px; */
+    width: calc((100% - 60px) / 3);
     /* width: 370px; */
     
     background: #FFFFFF;
