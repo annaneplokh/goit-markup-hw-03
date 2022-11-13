@@ -439,10 +439,8 @@ body{
 
 .button-portfolio .portfolio-filter{
     margin-right: 8px;
-
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
+       
     line-height: 1.63px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -455,12 +453,19 @@ body{
 }
 
 
+
+
 .list-button{
     padding: 6px 22px;
     border-radius: 4px;
     text-align: center;
     background-color: #F5F4FA;
     border: 2px solid #F5F4FA;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--title-text-color);
+        
 }
 
 .activ{
@@ -523,6 +528,11 @@ body{
     margin-top: 0px;
     margin-bottom: 4px;
 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
 }
 
 .list-link{
@@ -543,9 +553,9 @@ body{
    
 }
 
-.list .section-title{
+.list> .section-title{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
